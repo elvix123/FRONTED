@@ -1,0 +1,171 @@
+body {
+  overflow-x: hidden; /* Evitar desplazamiento horizontal */
+  overflow-y: hidden; /* Evitar desplazamiento vertical */
+}
+
+.backgroundImage {
+  background-image: url('../../assets/ecommerce.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 60px 0; /* Mantener el padding vertical */
+  display: flex;
+  border-radius: 10px;
+  margin-top: 0; /* Eliminar margen superior */
+  margin-bottom: 0; /* Eliminar margen inferior */
+  overflow-x: hidden; /* Ocultar desplazamiento horizontal */
+}
+  
+  
+  .textContainer {
+    flex: 1;
+    padding: 10px -10px; /* Ajustar el padding para que el texto no esté tan pegado a los lados */
+    display: flex;
+    align-items: center;
+    margin-top: -5px; /* Ajustar margen superior */
+    margin-bottom: 10px; /* Ajustar margen inferior */
+  }
+  
+  
+  .headerText {
+    font-size: 22px; /* Reducir el tamaño del texto para que no esté tan grande */
+    font-weight: bold;
+    color: #fff;
+    margin-left: 50px; /* Agregar un margen izquierdo de 10px */
+  }
+  
+  
+  .formContainer {
+    flex: 0.5;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 50px; /* Reducido el margen horizontal */
+  }
+  
+  .stepText {
+    font-size: 14px; /* Reducir el tamaño del texto para que no esté tan grande */
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .termsText {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .checkBoxText {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    height: 40px;
+    margin-bottom: 10px; /* Espacio entre los campos */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    margin-right: 10px;
+    flex: 1; 
+  }
+
+  .horizontalContainer {
+    display: flex;
+    flex-direction: row; /* Alinear los elementos horizontalmente */
+  }
+  
+  .dateContainer {
+    display: flex;
+    margin-bottom: 10px; /* Espacio entre los campos */
+  }
+  
+  .dateInput {
+    flex: 1; /* Ajustar para que ocupen el mismo espacio */
+    margin-right: 10px; /* Espacio entre los campos */
+  }
+  
+  .button {
+    width: 100%;
+    height: 40px;
+    background-color: #007bff;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .link {
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  
+  .socialIconContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  .socialIcon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .separatorLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .separatorLine .line {
+    flex: 1;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .separatorLine .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 10px;
+  }
+  
+  .registerWithEmail {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  

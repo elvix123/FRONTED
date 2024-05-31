@@ -1,0 +1,146 @@
+.backgroundImage {
+    background-image: url('../../assets/ecommerce.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    padding: 60px 0; /* Eliminado el margen horizontal */
+    display: flex;
+    border-radius: 10px;
+  }
+  
+  .textContainer {
+    flex: 1;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .headerText {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .formContainer {
+    flex: 0.4;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 5px; /* Reducido el margen horizontal a 5px */
+  }
+  
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input {
+    height: 40px;
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .button {
+    width: 100%;
+    height: 40px;
+    background-color: #007bff;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .link {
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  
+  .separatorLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .separatorLine .line {
+    flex: 1;
+    height: 1px;
+    background-color: #333;
+  }
+  
+  .separatorLine .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 10px;
+  }
+  
+  .socialLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .socialLoginButton {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .socialLoginButton:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  .socialLoginButton:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .socialLoginButtonText {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .socialLoginIcon {
+    font-size: 20px;
+    color: #333;
+    margin-right: 5px;
+  }
+  
